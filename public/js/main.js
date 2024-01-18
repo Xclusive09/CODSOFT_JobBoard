@@ -31,4 +31,4 @@ document.addEventListener('DOMContentLoaded', function () {
     const jobDetailContainer = document.getElementById('jobDetail');
     const jobDetail = {
       title: ' '
-    };  
+    };  })

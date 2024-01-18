@@ -3,20 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/style.css">
   <script defer src="../js/main.js"></script>
   <title>Job Board - Home</title>
 </head>
-<body>
+<body class="board">
+ 
   <header>
-    <h1>Welcome to the Job Board</h1>
+    <nav>
+      <h4>Xclusive</h4>
+      <h4>Sign in</h4>
+      <h4>Profile</h4>
+    </nav>
+
+    
   </header>
-  <section>
-    <h2>Featured Job Listings</h2>
-    <ul id="featuredJobs">
+  
+
+
+
+  <section class="welcome-page">
+
+    <div class="text">
+      <h1>Welcome to Xclusive Job Board</h1> 
+    </div>
+    
+       <ul id="featuredJobs">
       <!-- Featured job listings will be dynamically added here -->
     </ul>
+
+    <div>
+      <form action="/search" method="GET">
+        <label for="searchInput">Search:</label>
+        <input type="text" id="searchInput" name="q" placeholder="Enter your search term">
+
+        <label for="stateSelect">Select State:</label>
+        <select id="stateSelect" name="state">
+            <option value="Alabama">ABIA</option>
+            <option value="Alaska">DUTSE</option>
+            <!-- Add more states as needed -->
+        </select>
+
+        <input type="submit" value="Search">
+    </form>
+
+    </div>
+
   </section>
+
+
+
+
+
   <footer>
     <!-- Footer content goes here -->
   </footer>

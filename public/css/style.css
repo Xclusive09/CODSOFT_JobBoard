@@ -1,27 +1,29 @@
-/* Add your CSS styles here */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header, section, footer {
-    margin: 20px;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 20px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: blue;
-  }
-  
-  /* Add more styles as needed */
-  
+body .board {
+  background-color: #eee;
+  /* border-radius: 5rem; */
+  border-color: black;
+  border-radius: initial;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+section .welcome-page h1 {
+  font-weight: 100;
+  font-size: 3rem;
+  padding: 50em;
+  margin: auto;
+}
+
+section .text{
+  padding: 10rem;
+  font-weight: bolder;
+}
+section form {
+  margin-left: 5rem;
+  padding: 5rem;
+  font-size: 2rem;
+}
